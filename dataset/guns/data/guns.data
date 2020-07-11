@@ -1,4 +1,0 @@
-classes=1
-train=./dataset/guns/data/guns_train.txt
-valid=./dataset/guns/data/guns_test.txt
-names=./dataset/guns/data/guns.name

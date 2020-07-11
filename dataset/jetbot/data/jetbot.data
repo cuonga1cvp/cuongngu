@@ -1,4 +1,0 @@
-classes=1
-train=./dataset/jetbot/data/jetbot_train.txt
-valid=./dataset/jetbot/data/jetbot_test.txt
-names=./dataset/jetbot/data/jetbot.name
