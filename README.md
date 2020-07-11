@@ -1,1 +1,1 @@
-# cuongngu
+# data-yolo-darknetype

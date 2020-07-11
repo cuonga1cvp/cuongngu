@@ -1,0 +1,4 @@
+classes=1
+train=./dataset/jetbot_0305/data/jetbot_0305_train.txt
+valid=./dataset/jetbot_0305/data/jetbot_0305_test.txt
+names=./dataset/jetbot_0305/data/jetbot_0305.name

@@ -1,0 +1,4 @@
+classes=2
+train=./dataset/jetbot_with_angle/data/jetbot_with_angle_train.txt
+valid=./dataset/jetbot_with_angle/data/jetbot_with_angle_test.txt
+names=./dataset/jetbot_with_angle/data/jetbot_with_angle.name

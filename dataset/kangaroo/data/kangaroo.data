@@ -1,0 +1,4 @@
+classes=1
+train=./dataset/kangaroo/data/kangaroo_train.txt
+valid=./dataset/kangaroo/data/kangaroo_test.txt
+names=./dataset/kangaroo/data/kangaroo.name
