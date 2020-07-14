@@ -1,0 +1,4 @@
+classes=2
+train=./dataset/clock/data/clock_train.txt
+valid=./dataset/clock/data/clock_test.txt
+names=./dataset/clock/data/clock.names

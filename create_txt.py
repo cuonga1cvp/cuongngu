@@ -2,7 +2,7 @@ import os
 import shutil
 import cv2
 
-datasetname = 'jetbot_with_angle'
+datasetname = 'clock'
 
 dir_main = './dataset/'+datasetname
 new_dir = dir_main+'/data'
@@ -31,9 +31,9 @@ content = content[:-1]
 with open(new_dir+'/'+datasetname+'_test.txt','w') as fw:
 	fw.write(content)
 
-with open(new_dir+'/'+datasetname+'.name','w') as fw:
+with open(new_dir+'/'+datasetname+'.names','w') as fw:
 	fw.write(datasetname)
 
-content = 'classes=2' + '\n' + 'train='+new_dir+'/'+datasetname+'_train.txt'+'\n'+'valid='+new_dir+'/'+datasetname+'_test.txt' + '\n' + 'names='+new_dir+'/'+datasetname+'.name'
+content = 'classes=2' + '\n' + 'train='+new_dir+'/'+datasetname+'_train.txt'+'\n'+'valid='+new_dir+'/'+datasetname+'_test.txt' + '\n' + 'names='+new_dir+'/'+datasetname+'.names'
 with open(new_dir+'/'+datasetname+'.data','w') as fw:
 	fw.write(content)
