@@ -310,7 +310,7 @@ def train():
             results, maps = test.test(cfg,
                                       data,
                                       batch_size=batch_size,
-                                      img_size=imgsz_test,
+                                      imgsz=imgsz_test,
                                       model=ema.ema,
                                       save_json=final_epoch and is_coco,
                                       single_cls=opt.single_cls,
